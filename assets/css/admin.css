@@ -1,0 +1,46 @@
+.wp-image-slider-settings table {
+    width: 100%;
+}
+
+.wp-image-slider-settings .form-table td {
+    padding: 0;
+}
+
+.wp-image-slider-settings table li{
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    cursor: move;
+    display: inline-block;
+    margin: 0 20px 20px 0;
+    position: relative;
+} 
+
+.wp-image-slider-settings table li img{
+    width: 284px;
+    height: 200px;
+}
+
+.wp-image-slider-settings .wp-add-image {
+    color: #2271b1;
+    border-color: #2271b1;
+    background: #f6f7f7;
+    vertical-align: top;
+    padding: 5px;
+}
+ 
+.wp-image-slider-settings .remove-image  {
+    position: absolute;
+    left: 95%;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid red;
+    background-color: red;
+    color: #fff;
+    font-size: 16px;
+    line-height: 7px;
+    padding: 8px 8px 10px;
+    vertical-align: top;
+    top: -6%;
+    font-weight: 700;
+}
